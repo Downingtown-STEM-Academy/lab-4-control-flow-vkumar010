@@ -14,7 +14,18 @@
  Try several currentAverage values to make sure your code works. (1 point)
  
 */
-let currentAverage = 88
-
+let currentAverage = 43
+switch currentAverage{
+case 90...100:
+    print("A")
+case 80...89:
+    print("B")
+case 70...79:
+    print("C")
+case 60...69:
+    print("D")
+default:
+    print("F")
+}
 
 //: [Previous](@previous)  |  page 7 of 9  |  [Next](@next)
