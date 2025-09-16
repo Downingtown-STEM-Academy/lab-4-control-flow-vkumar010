@@ -46,7 +46,7 @@ let isWindy = true
 var weatherBool = false
 let walkingWeather = weatherBool
 
-if temp>=82 && isWindy == false && isRaining==false{
+if !isRaining || (temp>=82 && !isWindy){
     weatherBool=true
 }else{
     weatherBool=false
