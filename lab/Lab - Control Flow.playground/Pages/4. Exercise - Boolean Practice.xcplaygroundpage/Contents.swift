@@ -13,7 +13,7 @@
 let hasFish = true
 let hasPizza = false
 let hasVegan = true
-if (hasFish == true || hasPizza == true) && hasVegan == true{
+if (hasFish || hasPizza) && hasVegan{
     print("Let's go!")
 }else{
     print("Sorry, we'll have to think of somewhere else.")
